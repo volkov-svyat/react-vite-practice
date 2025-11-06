@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Topbar from './Topbar'
 import GetStarted from './GetStarted'
+import OurServices from './OurServices'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Topbar/>
       <GetStarted/>
+      <OurServices/>
     </div>
   )
 }

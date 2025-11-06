@@ -9,7 +9,7 @@ const navItems = [
 
 const Topbar = () => {
   return (
-    <nav className='min-w-screen w-full h-32 dark:bg-[#00113B] bg-white p-4 flex items-center justify-between'>
+    <nav className='min-w-screen w-full max-h-32 h-screen dark:bg-[#00113B] bg-white p-4 flex items-center justify-between'>
       <div className="ml-20 mt-4">
         <img src="src/assets/logo.svg" alt="Logo" className="h-32 w-auto "/>
       </div>

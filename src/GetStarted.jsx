@@ -3,9 +3,9 @@ import { ArrowRight } from 'lucide-react';
 
 const GetStarted = () => {
   return (
-    <nav class="flow-root py-10">
-        <div class="text-left" className='absolute left-118 absolute-right-110 transform py-16 -translate-x-1/2 flex space-x-6 text-left font-bold text-7xl leading-snug'>
-            <div className="flex flex-col w-full">
+    <nav class="flow-root py-0 bg-[url(src/assets/Vector1.svg)] bg-top bg-cover bg-repeat sticky">
+        <div class="text-left" className='absolute left-1/4 absolute-right-1/4 transform py-0 -translate-x-1/2 translate-y-1/6 flex space-x-6 text-left font-bold text-7xl leading-snug min-h-0 min-w-0'>
+            <div className="flex flex-col w-full min-h-0 min-w-0">
                 <span className="text-[#111029] dark:text-white">Make your business<br/></span>
                 <span className="text-[#FF6800] dark:text-[#FFCC00]">more powerful<br/></span>
                 <span className="text-[#111029] dark:text-white">with us<br/></span>
@@ -18,8 +18,15 @@ const GetStarted = () => {
                 </button>
             </div>
         </div>
+        <div className='transform py-0 translate-x-1/2 flex space-x-6 translate-y-1/10'>
+            <div className="flex flex-col w-full h-screen">
+                <img src='src/assets/GetStartedImg.png' className="h-auto w-200 max-h-full object-scale-down"></img>
+            </div>
+        </div>
+        <img>
+        </img>
     </nav>
   )
 }
 
-export default GetStarted
+export default GetStarted   
