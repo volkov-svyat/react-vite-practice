@@ -28,7 +28,7 @@ const OurServices = () => {
                     </img>
                     <span className={item.selected ? "font-medium text-2xl py-4 dark:text-white text-white" : "font-medium text-2xl py-4 dark:text-white"}>{item.title}</span>
                     <span className={item.selected ? `font-light text-2xl dark:text-white text-white` : `font-light text-2xl dark:text-white`}>{item.description}</span>
-                    <button className="cursor-pointer rounded-full py-3 bg-[#DBDEE166] w-21 hover:bg-[#FFFFFF] mx-32 my-8 dark:bg-[#020E2D] dark:hover:bg-[#FFFFFF] transition-colors duration-200 pointer-events-none">
+                    <button className="cursor-pointer rounded-full py-3 bg-[#DBDEE166] w-21 hover:bg-[#FFFFFF] mx-32 my-8 dark:bg-[#010f3148] dark:hover:bg-[#FFFFFF] transition-colors duration-200 pointer-events-none">
                         <ArrowRight size={64} className="pl-4 dark:text-white hover:text-[#4C40F7] dark:hover:text-[#4C40F7] transition-colors duration-200 flex pointer-events-auto"/>
                     </button>
                 </div>
