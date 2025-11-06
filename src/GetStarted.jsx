@@ -20,7 +20,8 @@ const GetStarted = () => {
         </div>
         <div className='transform py-0 translate-x-1/2 flex space-x-6 translate-y-1/10'>
             <div className="flex flex-col w-full h-screen">
-                <img src='src/assets/GetStartedImg.png' className="h-auto w-200 max-h-full object-scale-down"></img>
+                {/* Здесь ошибка с горизонтальной прокруткой */}
+                <img src='src/assets/GetStartedImg.png' className="h-auto w-200 max-w-1440 max-h-full object-scale-down"></img> 
             </div>
         </div>
         <img>

@@ -7,7 +7,7 @@ import OurDocumentation from './OurDocumentation'
 function App() {
 
   return (
-    <div>
+    <div className="max-w-1000">
       <Topbar/>
       <GetStarted/>
       <OurServices/>
