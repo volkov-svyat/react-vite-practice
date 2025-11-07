@@ -23,8 +23,6 @@ const GetStarted = () => {
                 <img src='src/assets/GetStartedImg.png' className="h-auto w-200 max-w-1440 max-h-full object-scale-down"></img> 
             </div>
         </div>
-        <img>
-        </img>
     </nav>
   )
 }

@@ -3,6 +3,7 @@ import Topbar from './Topbar'
 import GetStarted from './GetStarted'
 import OurServices from './OurServices'
 import OurDocumentation from './OurDocumentation'
+import CustomerSatisfaction from './CustomerSatisfaction'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <GetStarted/>
       <OurServices/>
       <OurDocumentation/>
+      <CustomerSatisfaction/>
     </div>
   )
 }
